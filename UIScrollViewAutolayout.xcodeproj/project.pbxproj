@@ -14,6 +14,8 @@
 		37E5027E1ABF39A9001C50E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E5027D1ABF39A9001C50E8 /* Images.xcassets */; };
 		37E502811ABF39A9001C50E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E5027F1ABF39A9001C50E8 /* LaunchScreen.xib */; };
 		37E5028D1ABF39A9001C50E8 /* UIScrollViewAutolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E5028C1ABF39A9001C50E8 /* UIScrollViewAutolayoutTests.m */; };
+		37E502981ABF3A62001C50E8 /* NewsSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E502971ABF3A62001C50E8 /* NewsSection.xib */; };
+		37E5029B1ABF3A9D001C50E8 /* NewsSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E5029A1ABF3A9D001C50E8 /* NewsSection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		37E502861ABF39A9001C50E8 /* UIScrollViewAutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollViewAutolayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E5028B1ABF39A9001C50E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E5028C1ABF39A9001C50E8 /* UIScrollViewAutolayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewAutolayoutTests.m; sourceTree = "<group>"; };
+		37E502971ABF3A62001C50E8 /* NewsSection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsSection.xib; sourceTree = "<group>"; };
+		37E502991ABF3A9D001C50E8 /* NewsSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsSection.h; sourceTree = "<group>"; };
+		37E5029A1ABF3A9D001C50E8 /* NewsSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsSection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		37E5026F1ABF39A9001C50E8 /* UIScrollViewAutolayout */ = {
 			isa = PBXGroup;
 			children = (
+				37E502961ABF3A41001C50E8 /* View */,
 				37E502741ABF39A9001C50E8 /* AppDelegate.h */,
 				37E502751ABF39A9001C50E8 /* AppDelegate.m */,
 				37E502771ABF39A9001C50E8 /* ViewController.h */,
@@ -117,6 +123,16 @@
 				37E5028B1ABF39A9001C50E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37E502961ABF3A41001C50E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37E502971ABF3A62001C50E8 /* NewsSection.xib */,
+				37E502991ABF3A9D001C50E8 /* NewsSection.h */,
+				37E5029A1ABF3A9D001C50E8 /* NewsSection.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +217,7 @@
 			files = (
 				37E5027C1ABF39A9001C50E8 /* Main.storyboard in Resources */,
 				37E502811ABF39A9001C50E8 /* LaunchScreen.xib in Resources */,
+				37E502981ABF3A62001C50E8 /* NewsSection.xib in Resources */,
 				37E5027E1ABF39A9001C50E8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +238,7 @@
 			files = (
 				37E502791ABF39A9001C50E8 /* ViewController.m in Sources */,
 				37E502761ABF39A9001C50E8 /* AppDelegate.m in Sources */,
+				37E5029B1ABF3A9D001C50E8 /* NewsSection.m in Sources */,
 				37E502731ABF39A9001C50E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
