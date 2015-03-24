@@ -75,9 +75,6 @@
     [self.scrollView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[anotherNewsView(200)]|" options:0 metrics:nil views:viewsDict]];
     [self.scrollView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[anotherNewsView(100)]|" options:0 metrics:nil views:viewsDict]];
 
-    [self.scrollView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-100-[anotherNewsView]" options:0 metrics:nil views:viewsDict]];
-
-
     [self.scrollView setContentSize:CGSizeMake(self.scrollView.frame.size.width * 2, self.scrollView.frame.size.height)];
 
 }
