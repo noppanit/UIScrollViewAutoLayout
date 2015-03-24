@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>29DC0C18-CE26-4592-9E32-001F2286D18A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIScrollViewAutolayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0B9AB871C3569A76DB75071FCCF561A6F76774D7</key>
+		<string>github.com:noppanit/UIScrollViewAutoLayout.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIScrollViewAutolayout.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0B9AB871C3569A76DB75071FCCF561A6F76774D7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:noppanit/UIScrollViewAutoLayout.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0B9AB871C3569A76DB75071FCCF561A6F76774D7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0B9AB871C3569A76DB75071FCCF561A6F76774D7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIScrollViewAutolayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>

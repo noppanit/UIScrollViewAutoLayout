@@ -18,15 +18,12 @@
 }
 */
 
-
--(id) initWithFrame:(CGRect)frame {
+- (id)initWithFrame:(CGRect)frame
+{
     self = [super initWithFrame:frame];
-    if(self) {
-        [[NSBundle mainBundle] loadNibNamed:@"NewsSection" owner:self options:nil];
-        
-        [self addSubview:self.view];
+    if (self) {
+        self = [[NSBundle mainBundle] loadNibNamed:@"NewsSection" owner:self options:nil][0];
     }
     return self;
 }
-
 @end
