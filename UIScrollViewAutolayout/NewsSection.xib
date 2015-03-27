@@ -24,10 +24,15 @@
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
             </subviews>
             <constraints>
+                <constraint firstItem="USL-xF-RLX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Kmb-kK-nlw"/>
+                <constraint firstAttribute="trailing" secondItem="USL-xF-RLX" secondAttribute="trailing" id="Oa0-6Q-ogR"/>
+                <constraint firstItem="USL-xF-RLX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XhE-wk-O6F"/>
                 <constraint firstAttribute="trailing" secondItem="USL-xF-RLX" secondAttribute="trailing" id="isX-6D-LNn"/>
+                <constraint firstAttribute="bottom" secondItem="USL-xF-RLX" secondAttribute="bottom" id="jaF-dt-waP"/>
                 <constraint firstItem="USL-xF-RLX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jpN-BY-wkR"/>
                 <constraint firstAttribute="bottom" secondItem="USL-xF-RLX" secondAttribute="bottom" id="lQM-Gi-Npg"/>
                 <constraint firstItem="USL-xF-RLX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pV3-Qj-rem"/>
