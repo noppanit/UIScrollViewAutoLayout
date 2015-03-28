@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupNewsView];
+//    [self setupNewsView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,7 +26,7 @@
 }
 
 
-- (void) setupNewsView
+- (void) viewDidLayoutSubviews
 {
     UIView *newsView = [[UIView alloc] initWithFrame:CGRectZero];
     newsView.backgroundColor = [UIColor redColor];
